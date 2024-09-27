@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP ARA webpro 03</title>
+</head>
+<body>
+        <!--form berguna utk menampung data-data yang diinputkan dari pengguna.-->
+        <!--sbg contoh, dalam penggunaannya jika kita klik tombol 'submit', maka
+        data dapat diproses dan disimpan-->
+    <form>
+        <div class="form-groups">
+        <!--div berguna utk membagi-bagi bagian dari web, spt navigasi, content, dan footer-->
+        <!--alasan penggunaannya disini adalah untuk memperjelas bagian content-->
+            <h2>Profil Pribadi</h2>
+            Foto Profil <br/>
+        <!--img berguna utk memasukkan foto ke web-->
+        <!--disini digunakan img utk memasukkan foto profil-->
+            <img src="ARAA.jpg" align="center" width="180" height="250"> <br/> <br/>
+            Video Perkenalan <br/>
+        <!--video berguna utk memasukkan video ke suatu web-->
+        <!--disini digunakan video utk memasukkan contoh video sbg video perkenalan-->
+            <video width="250" controls>
+                <source src="Testing.mp4" type="video/mp4">
+            </video>
+
+            <h3>Tentang Saya</h3> <br/>
+            Hai! Saya adalah manusia yang tiba-tiba masuk IT
+
+            <h3>Keterampilan</h3>
+        <!--table berguna utk membentuk suatu table dalam web-->
+        <!--tr berguna utk membentuk suatu row/baris dalam table-->
+        <!--th berguna utk menjadi suatu heading table-->
+        <!--td berguna utk membentuk suatu column/kolom dalam table-->
+            <table>
+                <tr>
+                    <th>Keterampilan</th>
+                    <th>Tingkat</th>
+                </tr>
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Mahir</td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>Menengah</td>
+                </tr>
+                <tr>
+                    <td>Phyton</td>
+                    <td>Pemula</td>
+                </tr>
+            </table>
+
+            <h3>Hubungi Saya</h3>
+            <table>
+                <tr>
+                    <td>Nama:</td>
+        <!--input berguna untuk pendefinisian awal dari apa yang ingin diinputkan-->
+        <!--sebagai contoh, ingin dimasukkan suatu kotak kosong utk menginputkan nama.
+        maka dibutuhkan 'input' yang diikuti oleh type="text".-->
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email"/></td>
+                </tr>
+                <tr>
+                    <td>Pesan:</td>
+                    <td><textarea row="15" cols="10"></textarea></td>
+                </tr>
+            </table>
+        <!--button berguna utk membentuk suatu tombol, spt utk tombol submit, reset, dsb.-->
+            <button type="submit">Kirim Pesan</button>
+
+            <h3>Media Sosial:</h3>
+        <!--a berguna utk dapat menginputkan suatu hyperlink text-->
+            <a href="https://www.instagram.com/amanda.araa" target="_blank">Instagram |</a>
+            <a href="https://www.X.com/askurzelf" target="_blank">Twitter |</a>
+            <a href="https://www.github.com/amanda-araa20" target="_blank">Github</a>
+        </div> 
+    </form>
+</body>
+</html>
